@@ -1,5 +1,6 @@
 # Refactorizacion Avanzada U11 — Post 2
 
+Juan Sebastian Gelvez - 02230131065
 
 ## Objetivo
 Reducir la complejidad de condicionales usando Strategy y Guard Clauses.
@@ -15,6 +16,7 @@ Reducir la complejidad de condicionales usando Strategy y Guard Clauses.
 
 ![Dashboard antes](img/captura1.png)
 ![Dashboard despues](img/captura2.png)
+
 ## Reflexion sobre Open/Closed
 El uso de Strategy permite agregar nuevos tipos de envio creando una nueva
 implementacion de `EstrategiaEnvio` sin modificar `EnvioService`. Esto mantiene
